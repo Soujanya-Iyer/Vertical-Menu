@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:darkslategray;
+    width: 15%;
+    height: 100vh;
+}
+
+#cont{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border-bottom: 2px solid whitesmoke;
+    display: block;
+}
+
+a:hover{
+    background-color: white;
+    color: darkslategrey;
+}
+
+#menu1{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(97, 164, 224);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#veg{
+    position: relative;
+}
+#veg:hover #menu1{
+    display: block;
+}
+
+#menu2{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(97, 164, 224);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#nonveg{
+    position: relative;
+}
+#nonveg:hover #menu2{
+    display: block;
+}
+
+#menu3{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(97, 164, 224);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#drink{
+    position: relative;
+}
+#drink:hover #menu3{
+    display: block;
+}
+
+#bfmenu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#bf{
+    position: relative;
+}
+#bf:hover #bfmenu{
+    display: block;
+}
+
+#lmenu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#lunch{
+    position: relative;
+}
+#lunch:hover #lmenu{
+    display: block;
+}
+
+#dmenu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#dinner{
+    position: relative;
+}
+#dinner:hover #dmenu{
+    display: block;
+}
+
+#bfmenu2{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#bf2{
+    position: relative;
+}
+#bf2:hover #bfmenu2{
+    display: block;
+}
+
+#lmenu1{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#lunch1{
+    position: relative;
+}
+#lunch1:hover #lmenu1{
+    display: block;
+}
+
+#dmenu1{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#dinner1{
+    position: relative;
+}
+#dinner1:hover #dmenu1{
+    display: block;
+}
+
+#hmenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#hd{
+    position: relative;
+}
+#hd:hover #hmenu{
+    display: block;
+}
+
+#cmenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(77, 228, 233);
+    color: darkslateblue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#cd{
+    position: relative;
+}
+#cd:hover #cmenu{
+    display: block;
+}
